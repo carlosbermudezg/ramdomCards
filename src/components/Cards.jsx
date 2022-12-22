@@ -13,9 +13,9 @@ const Cards = ( { user, color } )=>{
             </div>
             <div className="card__footer">
                 <ul>
-                    <li> <small> <i class="fa-solid fa-envelope"></i> { user.email }  </small> </li>
-                    <li> <small> <i class="fa-solid fa-phone"></i> { user.phone } </small>  </li>
-                    <li> <small> <i class="fa-solid fa-location-dot"></i> { country + ' ' + state + ' ' + city } </small> </li>
+                    <li> <small> <i className="fa-solid fa-envelope"></i> { user.email }  </small> </li>
+                    <li> <small> <i className="fa-solid fa-phone"></i> { user.phone } </small>  </li>
+                    <li> <small> <i className="fa-solid fa-location-dot"></i> { country + ' ' + state + ' ' + city } </small> </li>
                 </ul>
             </div>
         </div> 

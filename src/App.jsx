@@ -5,6 +5,7 @@ import colors from './data/colors'
 import Cards from './components/Cards'
 
 function App() {
+
   const [index, setIndex] = useState(0)
   const [indexColor, setIndexColor] = useState(0)
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App" style={ { backgroundColor: colors[indexColor] } }>
       <Cards user={users[index]} color={colors[indexColor]} />
-      <button className='btn' type='button' onClick={ ()=> ramdomIndex() }><i class="fa-solid fa-shuffle"></i></button>
+      <button className='btn' type='button' onClick={ ()=> ramdomIndex() }><i className="fa-solid fa-shuffle"></i></button>
     </div>
   )
 }
